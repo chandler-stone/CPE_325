@@ -1,0 +1,66 @@
+
+**** Build of configuration Debug for project test ****
+
+"C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=16 --include_path="C:/ti/ccs1200/ccs/ccs_base/msp430/include" --include_path="C:/Users/crs0074/workspace_v12/test" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --define=__MSP430FG4618__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "test.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=16 --advice:power=all --define=__MSP430FG4618__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU19 -z -m"test.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"C:/ti/ccs1200/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="test_linkInfo.xml" --entry_point=RESET --use_hw_mpy=16 -o "test.out" "./main.obj" "../lnk_msp430fg4618.cmd"  -llibc.a 
+<Linking>
+warning #10366-D: automatic library build: using library "C:\ti\ccs1200\ccs\tools\compiler\ti-cgt-msp430_21.6.0.LTS\lib\rts430x_sc_sd_eabi.lib" for the first time, so it must be built.  This may take a few minutes.
+>> ERROR: mklib: could not open c:/ti/ccs1200/ccs/tools/compiler/ti-cgt~2.lts/lib/\rts430x_sc_sd_eabi.lib with mode w: Permission denied
+warning #10207-D: automatic RTS selection:  resolving index library "libc.a" to "rts430x_sc_sd_eabi.lib", but "rts430x_sc_sd_eabi.lib" was not found
+"../lnk_msp430fg4618.cmd", line 159: warning #10374-D: Interrupt vector "DAC12" does not have an interrupt handler routine.
+"../lnk_msp430fg4618.cmd", line 160: warning #10374-D: Interrupt vector "DMA" does not have an interrupt handler routine.
+"../lnk_msp430fg4618.cmd", line 161: warning #10374-D: Interrupt vector "BASICTIMER" does not have an interrupt handler routine.
+"../lnk_msp430fg4618.cmd", line 162: warning #10374-D: Interrupt vector "PORT2" does not have an interrupt handler routine.
+"../lnk_msp430fg4618.cmd", line 163: warning #10374-D: Interrupt vector "USART1TX" does not have an interrupt handler routine.
+"../lnk_msp430fg4618.cmd", line 164: warning #10374-D: Interrupt vector "USART1RX" does not have an interrupt handler routine.
+"../lnk_msp430fg4618.cmd", line 165: warning #10374-D: Interrupt vector "PORT1" does not have an interrupt handler routine.
+"../lnk_msp430fg4618.cmd", line 166: warning #10374-D: Interrupt vector "TIMERA1" does not have an interrupt handler routine.
+"../lnk_msp430fg4618.cmd", line 167: warning #10374-D: Interrupt vector "TIMERA0" does not have an interrupt handler routine.
+"../lnk_msp430fg4618.cmd", line 168: warning #10374-D: Interrupt vector "ADC12" does not have an interrupt handler routine.
+"../lnk_msp430fg4618.cmd", line 169: warning #10374-D: Interrupt vector "USCIAB0TX" does not have an interrupt handler routine.
+"../lnk_msp430fg4618.cmd", line 170: warning #10374-D: Interrupt vector "USCIAB0RX" does not have an interrupt handler routine.
+"../lnk_msp430fg4618.cmd", line 171: warning #10374-D: Interrupt vector "WDT" does not have an interrupt handler routine.
+"../lnk_msp430fg4618.cmd", line 172: warning #10374-D: Interrupt vector "COMPARATORA" does not have an interrupt handler routine.
+"../lnk_msp430fg4618.cmd", line 173: warning #10374-D: Interrupt vector "TIMERB1" does not have an interrupt handler routine.
+"../lnk_msp430fg4618.cmd", line 174: warning #10374-D: Interrupt vector "TIMERB0" does not have an interrupt handler routine.
+"../lnk_msp430fg4618.cmd", line 175: warning #10374-D: Interrupt vector "NMI" does not have an interrupt handler routine.
+ 
+ undefined  first referenced
+  symbol        in file     
+ ---------  ----------------
+ __TI_int14                 
+ __TI_int15                 
+ __TI_int16                 
+ __TI_int17                 
+ __TI_int18                 
+ __TI_int19                 
+ __TI_int20                 
+ __TI_int21                 
+ __TI_int22                 
+ __TI_int23                 
+ __TI_int24                 
+ __TI_int25                 
+ __TI_int26                 
+ __TI_int27                 
+ __TI_int28                 
+ __TI_int29                 
+ __TI_int30                 
+ 
+error #10234-D: unresolved symbols remain
+ 
+error #10010: errors encountered during linking; "test.out" not built
+>> Compilation failure
+makefile:141: recipe for target 'test.out' failed
+gmake[1]: *** [test.out] Error 1
+makefile:137: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
