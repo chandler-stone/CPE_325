@@ -1,0 +1,17 @@
+#include <msp430.h> 
+
+
+/**
+ * main.c
+ */
+
+const char input1[100] = "This is another sample input. There is a conspiracy.";
+const char input2[100] = "This is the sample input. There is no conspiracy.";
+
+
+
+void main() {
+	WDTCTL = WDTPW | WDTHOLD;	// stop watchdog timer
+	
+
+}

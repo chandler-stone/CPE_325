@@ -1,0 +1,8 @@
+"./Lab05_B1.obj"
+"./Lab05_B2.obj"
+"./Lab05_P1.obj"
+"./Lab05_P2.obj"
+"./Lab05_P3.obj"
+"../lnk_msp430f5529.cmd"
+-llibmath.a
+-llibc.a

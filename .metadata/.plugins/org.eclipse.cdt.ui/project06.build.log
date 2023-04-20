@@ -1,0 +1,27 @@
+
+**** Build of configuration Debug for project project06 ****
+
+"C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building target: "project06.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmsp --data_model=small -Ooff --use_hw_mpy=16 --advice:power=all --define=__MSP430FG4618__ -g --printf_support=full --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU19 --asm_listing -z -m"project06.map" --heap_size=300 --stack_size=300 --cinit_hold_wdt=on -i"C:/ti/ccs1200/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="project06_linkInfo.xml" --use_hw_mpy=16 --rom_model -o "project06.out" "./Lab06_P1.obj" "../lnk_msp430fg4618.cmd"  -llibc.a 
+<Linking>
+"../lnk_msp430fg4618.cmd", line 176: error #10099-D: program will not fit into available memory, or the section contains a call site that requires a trampoline that can't be generated for this section. placement with alignment fails for section ".reset" size 0x4.  Available memory ranges:
+   RESET        size: 0x2          unused: 0x2          max hole: 0x2       
+ 
+ undefined first referenced                                                                         
+  symbol       in file                                                                              
+ --------- ----------------                                                                         
+ main      C:\ti\ccs1200\ccs\tools\compiler\ti-cgt-msp430_21.6.0.LTS\lib\rts430_eabi.lib<boot.c.obj>
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "project06.out" not built
+ 
+>> Compilation failure
+makefile:141: recipe for target 'project06.out' failed
+gmake[1]: *** [project06.out] Error 1
+makefile:137: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****

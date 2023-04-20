@@ -1,0 +1,4 @@
+"./Lab02_P1.obj"
+"../lnk_msp430f5529.cmd"
+-llibmath.a
+-llibc.a

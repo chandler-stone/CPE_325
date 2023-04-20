@@ -1,0 +1,5 @@
+PROMPT_FOR_ADVISOR_REMARKS_ON_LAUNCH=always
+RELOAD_PROGRAM_IF_CHANGED=always
+eclipse.preferences.version=1
+symbolAutoCompleteHistory<seperator>org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser<seperator>TI\ MSP430\ USB1\\MSP430=0x2400,0x8,0x00008,0x00007,0x2402,0x0,0x1000,p,a,factor,value,output_factor_num,0x43FC,0x4418,0x23FE
+useAnnotationsPrefPage=true

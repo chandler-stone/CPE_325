@@ -1,0 +1,19 @@
+
+**** Build of configuration Debug for project project06_C_2023 ****
+
+"C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../Lab06_P2.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmsp --data_model=restricted -Ooff --use_hw_mpy=16 --include_path="C:/ti/ccs1200/ccs/ccs_base/msp430/include" --include_path="C:/Users/chand/workspace_v12/project06_C_2023" --include_path="C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --advice:power=all --define=__MSP430FG4618__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU19 --preproc_with_compile --preproc_dependency="Lab06_P2.d_raw"  "../Lab06_P2.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'Lab06_P2.obj' failed
+>> WARNING: Large data model not supported on specified silicon version. Option ignored.
+"../Lab06_P2.c", line 50: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../Lab06_P2.c", line 70: error #249: function "Port1_ISR" has already been defined
+1 error detected in the compilation of "../Lab06_P2.c".
+gmake: *** [Lab06_P2.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

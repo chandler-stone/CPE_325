@@ -1,0 +1,51 @@
+#include <msp430.h>
+#include <stdio.h>
+
+/**
+ * main.c
+ */
+
+const char input1[100] = "This is another sample input. There is a conspiracy.";
+const char input2[100] = "This is the sample input. There is no conspiracy.";
+
+char stringCharTotal[];
+
+
+int countLetters(const char* str) {
+    unsigned int i = 0;
+    unsigned int j = 0;
+    int charTotal = 0;
+    int stringLineDivisibleTotal = 0;
+    while (str[i] != 0x00) {
+        if (((str[i] >= 'A') && (str[i] >= 'z')) && ((str[i] > 'a') || (str[i] < 'Z'))) {
+            charTotal++;
+        }
+        else {
+            stringCharTotal[j] = charTotal;
+            charTotal = 0;
+            j++;
+        }
+        i++;
+    }
+    stringLineDivisibleTotal[j] = 0x00;
+    i = 0;
+    while (str[i] != 0x00) {
+        if (stringCharTotal[i] == stringCharTotal[i+1]) {
+            stringLineDivisibleTotal++;
+        }
+        i++;
+    }
+    return stringLineDivisibleTotal;
+}
+
+void printOutput(int out) {
+    fprintf("output for string: %i", out);
+}
+
+
+void main() {
+	WDTCTL = WDTPW | WDTHOLD;	// stop watchdog timer
+
+	int out = countLetters(input1);
+	fprintf("output for ");
+}
