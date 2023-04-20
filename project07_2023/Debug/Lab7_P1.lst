@@ -1,11 +1,11 @@
-MSP430 Assembler PC v21.6.0 Thu Mar 30 20:42:05 2023
+MSP430 Assembler PC v21.6.0 Wed Apr 12 12:34:09 2023
 
 Copyright (c) 2003-2018 Texas Instruments Incorporated
-C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE    1
+C:\Users\crs0074\AppData\Local\Temp\{AC605C25-B20A-489D-9608-84325D34CCC3} PAGE    1
 
        1            ;******************************************************************************
        2            ;* MSP430 G3 C/C++ Codegen                                              PC v21.6.0.LTS *
-       3            ;* Date/Time created: Thu Mar 30 20:42:05 2023                                *
+       3            ;* Date/Time created: Wed Apr 12 12:34:09 2023                                *
        4            ;******************************************************************************
        5                    .compiler_opts --abi=eabi --diag_wrap=off --hll_source=on --mem_model:code=small --mem_model:d
        6            
@@ -58,10 +58,10 @@ C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE 
       52                    .dwattr $C$DW$4, DW_AT_decl_column(0x01)
       53            
       54            $C$DW$5 .dwtag  DW_TAG_variable
-MSP430 Assembler PC v21.6.0 Thu Mar 30 20:42:05 2023
+MSP430 Assembler PC v21.6.0 Wed Apr 12 12:34:09 2023
 
 Copyright (c) 2003-2018 Texas Instruments Incorporated
-C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE    2
+C:\Users\crs0074\AppData\Local\Temp\{AC605C25-B20A-489D-9608-84325D34CCC3} PAGE    2
 
       55                    .dwattr $C$DW$5, DW_AT_name("P1IE")
       56                    .dwattr $C$DW$5, DW_AT_TI_symbol_name("P1IE")
@@ -118,10 +118,10 @@ C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE 
      107                    .dwattr $C$DW$10, DW_AT_type(*$C$DW$T$24)
      108                    .dwattr $C$DW$10, DW_AT_declaration
      109                    .dwattr $C$DW$10, DW_AT_external
-MSP430 Assembler PC v21.6.0 Thu Mar 30 20:42:05 2023
+MSP430 Assembler PC v21.6.0 Wed Apr 12 12:34:09 2023
 
 Copyright (c) 2003-2018 Texas Instruments Incorporated
-C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE    3
+C:\Users\crs0074\AppData\Local\Temp\{AC605C25-B20A-489D-9608-84325D34CCC3} PAGE    3
 
      110                    .dwattr $C$DW$10, DW_AT_decl_file("C:/ti/ccs1200/ccs/ccs_base/msp430/include/msp430xG46x.h")
      111                    .dwattr $C$DW$10, DW_AT_decl_line(0x559)
@@ -159,13 +159,13 @@ C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE 
      143                    .dwattr $C$DW$13, DW_AT_TI_symbol_name("main")
      144                    .dwattr $C$DW$13, DW_AT_external
      145                    .dwattr $C$DW$13, DW_AT_TI_begin_file("../Lab7_P1.c")
-     146                    .dwattr $C$DW$13, DW_AT_TI_begin_line(0x1e)
+     146                    .dwattr $C$DW$13, DW_AT_TI_begin_line(0x20)
      147                    .dwattr $C$DW$13, DW_AT_TI_begin_column(0x06)
      148                    .dwattr $C$DW$13, DW_AT_decl_file("../Lab7_P1.c")
-     149                    .dwattr $C$DW$13, DW_AT_decl_line(0x1e)
+     149                    .dwattr $C$DW$13, DW_AT_decl_line(0x20)
      150                    .dwattr $C$DW$13, DW_AT_decl_column(0x06)
      151                    .dwattr $C$DW$13, DW_AT_TI_max_frame_size(0x02)
-     152                    .dwpsn  file "../Lab7_P1.c",line 31,column 1,is_stmt,address main,isa 0
+     152                    .dwpsn  file "../Lab7_P1.c",line 33,column 1,is_stmt,address main,isa 0
      153            
      154                    .dwfde $C$DW$CIE, main
      155            
@@ -178,73 +178,73 @@ C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE 
      162            ;*****************************************************************************
      163 000000       main:
      164            ;* --------------------------------------------------------------------------*
-MSP430 Assembler PC v21.6.0 Thu Mar 30 20:42:05 2023
+MSP430 Assembler PC v21.6.0 Wed Apr 12 12:34:09 2023
 
 Copyright (c) 2003-2018 Texas Instruments Incorporated
-C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE    4
+C:\Users\crs0074\AppData\Local\Temp\{AC605C25-B20A-489D-9608-84325D34CCC3} PAGE    4
 
      165                    .dwcfi  cfa_offset, 2
      166                    .dwcfi  save_reg_to_mem, 16, -2
-     167                    .dwpsn  file "../Lab7_P1.c",line 32,column 5,is_stmt,isa 0
-     168 000000 40B2          MOV.W     #23168,&WDTCTL+0      ; [] |32| 
+     167                    .dwpsn  file "../Lab7_P1.c",line 34,column 5,is_stmt,isa 0
+     168 000000 40B2          MOV.W     #23168,&WDTCTL+0      ; [] |34| 
          000002 5A80 
          000004 0000!
-     169                    .dwpsn  file "../Lab7_P1.c",line 34,column 5,is_stmt,isa 0
-     170 000006 D232          EINT      ; [] |34| 
-     171                    .dwpsn  file "../Lab7_P1.c",line 36,column 5,is_stmt,isa 0
-     172 000008 D0F2          OR.B      #3,&P1IE+0            ; [] |36| 
+     169                    .dwpsn  file "../Lab7_P1.c",line 36,column 5,is_stmt,isa 0
+     170 000006 D232          EINT      ; [] |36| 
+     171                    .dwpsn  file "../Lab7_P1.c",line 38,column 5,is_stmt,isa 0
+     172 000008 D0F2          OR.B      #3,&P1IE+0            ; [] |38| 
          00000a 0003 
          00000c 0000!
-     173                    .dwpsn  file "../Lab7_P1.c",line 37,column 5,is_stmt,isa 0
-     174 00000e C2E2          BIC.B     #4,&P1DIR+0           ; [] |37| 
+     173                    .dwpsn  file "../Lab7_P1.c",line 39,column 5,is_stmt,isa 0
+     174 00000e C2E2          BIC.B     #4,&P1DIR+0           ; [] |39| 
          000010 0000!
-     175                    .dwpsn  file "../Lab7_P1.c",line 38,column 5,is_stmt,isa 0
-     176 000012 D0F2          OR.B      #3,&P1IES+0           ; [] |38| 
+     175                    .dwpsn  file "../Lab7_P1.c",line 40,column 5,is_stmt,isa 0
+     176 000012 D0F2          OR.B      #3,&P1IES+0           ; [] |40| 
          000014 0003 
          000016 0000!
-     177                    .dwpsn  file "../Lab7_P1.c",line 39,column 5,is_stmt,isa 0
-     178 000018 C3D2          BIC.B     #1,&P1IFG+0           ; [] |39| 
+     177                    .dwpsn  file "../Lab7_P1.c",line 41,column 5,is_stmt,isa 0
+     178 000018 C3D2          BIC.B     #1,&P1IFG+0           ; [] |41| 
          00001a 0000!
-     179                    .dwpsn  file "../Lab7_P1.c",line 41,column 5,is_stmt,isa 0
-     180 00001c D2E2          OR.B      #4,&P2DIR+0           ; [] |41| 
+     179                    .dwpsn  file "../Lab7_P1.c",line 43,column 5,is_stmt,isa 0
+     180 00001c D2E2          OR.B      #4,&P2DIR+0           ; [] |43| 
          00001e 0000!
-     181                    .dwpsn  file "../Lab7_P1.c",line 42,column 5,is_stmt,isa 0
-     182 000020 D2E2          OR.B      #4,&P2SEL+0           ; [] |42| 
+     181                    .dwpsn  file "../Lab7_P1.c",line 44,column 5,is_stmt,isa 0
+     182 000020 D2E2          OR.B      #4,&P2SEL+0           ; [] |44| 
          000022 0000!
-     183                    .dwpsn  file "../Lab7_P1.c",line 44,column 5,is_stmt,isa 0
-     184 000024 40B2          MOV.W     #224,&TBCCTL1+0       ; [] |44| 
+     183                    .dwpsn  file "../Lab7_P1.c",line 46,column 5,is_stmt,isa 0
+     184 000024 40B2          MOV.W     #224,&TBCCTL1+0       ; [] |46| 
          000026 00E0 
          000028 0000!
-     185                    .dwpsn  file "../Lab7_P1.c",line 45,column 5,is_stmt,isa 0
-     186 00002a 40B2          MOV.W     #272,&TBCTL+0         ; [] |45| 
+     185                    .dwpsn  file "../Lab7_P1.c",line 47,column 5,is_stmt,isa 0
+     186 00002a 40B2          MOV.W     #272,&TBCTL+0         ; [] |47| 
          00002c 0110 
          00002e 0000!
-     187                    .dwpsn  file "../Lab7_P1.c",line 46,column 5,is_stmt,isa 0
-     188 000030 40B2          MOV.W     #544,&TBCCR0+0        ; [] |46| 
-         000032 0220 
+     187                    .dwpsn  file "../Lab7_P1.c",line 48,column 5,is_stmt,isa 0
+     188 000030 40B2          MOV.W     #528,&TBCCR0+0        ; [] |48| 
+         000032 0210 
          000034 0000!
-     189                    .dwpsn  file "../Lab7_P1.c",line 47,column 5,is_stmt,isa 0
-     190 000036 40B2          MOV.W     #272,&TBCCR1+0        ; [] |47| 
-         000038 0110 
+     189                    .dwpsn  file "../Lab7_P1.c",line 49,column 5,is_stmt,isa 0
+     190 000036 40B2          MOV.W     #264,&TBCCR1+0        ; [] |49| 
+         000038 0108 
          00003a 0000!
-     191                    .dwpsn  file "../Lab7_P1.c",line 49,column 5,is_stmt,isa 0
+     191                    .dwpsn  file "../Lab7_P1.c",line 51,column 5,is_stmt,isa 0
      192 00003c D032          BIS.W     #24,SR
          00003e 0018 
-     193 000040 4303          NOP      ; [] |49| 
-     194                    .dwpsn  file "../Lab7_P1.c",line 50,column 1,is_stmt,isa 0
+     193 000040 4303          NOP      ; [] |51| 
+     194                    .dwpsn  file "../Lab7_P1.c",line 52,column 1,is_stmt,isa 0
      195            $C$DW$14        .dwtag  DW_TAG_TI_branch
      196                    .dwattr $C$DW$14, DW_AT_low_pc(0x00)
      197                    .dwattr $C$DW$14, DW_AT_TI_return
      198            
      199 000042 4130          RET       ; [] 
      200                    ; [] 
-MSP430 Assembler PC v21.6.0 Thu Mar 30 20:42:05 2023
+MSP430 Assembler PC v21.6.0 Wed Apr 12 12:34:09 2023
 
 Copyright (c) 2003-2018 Texas Instruments Incorporated
-C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE    5
+C:\Users\crs0074\AppData\Local\Temp\{AC605C25-B20A-489D-9608-84325D34CCC3} PAGE    5
 
      201                    .dwattr $C$DW$13, DW_AT_TI_end_file("../Lab7_P1.c")
-     202                    .dwattr $C$DW$13, DW_AT_TI_end_line(0x32)
+     202                    .dwattr $C$DW$13, DW_AT_TI_end_line(0x34)
      203                    .dwattr $C$DW$13, DW_AT_TI_end_column(0x01)
      204                    .dwendentry
      205                    .dwendtag $C$DW$13
@@ -260,14 +260,14 @@ C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE 
      215                    .dwattr $C$DW$15, DW_AT_TI_symbol_name("Port1_ISR")
      216                    .dwattr $C$DW$15, DW_AT_external
      217                    .dwattr $C$DW$15, DW_AT_TI_begin_file("../Lab7_P1.c")
-     218                    .dwattr $C$DW$15, DW_AT_TI_begin_line(0x35)
+     218                    .dwattr $C$DW$15, DW_AT_TI_begin_line(0x37)
      219                    .dwattr $C$DW$15, DW_AT_TI_begin_column(0x12)
      220                    .dwattr $C$DW$15, DW_AT_decl_file("../Lab7_P1.c")
-     221                    .dwattr $C$DW$15, DW_AT_decl_line(0x35)
+     221                    .dwattr $C$DW$15, DW_AT_decl_line(0x37)
      222                    .dwattr $C$DW$15, DW_AT_decl_column(0x12)
      223                    .dwattr $C$DW$15, DW_AT_TI_interrupt
      224                    .dwattr $C$DW$15, DW_AT_TI_max_frame_size(0x04)
-     225                    .dwpsn  file "../Lab7_P1.c",line 53,column 35,is_stmt,address Port1_ISR,isa 0
+     225                    .dwpsn  file "../Lab7_P1.c",line 55,column 35,is_stmt,address Port1_ISR,isa 0
      226            
      227                    .dwfde $C$DW$CIE, Port1_ISR
      228            
@@ -285,23 +285,23 @@ C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE 
      240 000000 120F          PUSH.W    r15                   ; [] 
      241                    .dwcfi  cfa_offset, 4
      242                    .dwcfi  save_reg_to_mem, 15, -4
-     243                    .dwpsn  file "../Lab7_P1.c",line 54,column 5,is_stmt,isa 0
-     244 000002 B3D2          BIT.B     #1,&P1IN+0            ; [] |54| 
+     243                    .dwpsn  file "../Lab7_P1.c",line 56,column 5,is_stmt,isa 0
+     244 000002 B3D2          BIT.B     #1,&P1IN+0            ; [] |56| 
          000004 0000!
-     245 000006 203C          JNE       $C$L7                 ; [] |54| 
-     246                                                      ; [] |54| 
+     245 000006 203C          JNE       $C$L7                 ; [] |56| 
+     246                                                      ; [] |56| 
      247            ;* --------------------------------------------------------------------------*
-     248 000008 B3E2          BIT.B     #2,&P1IN+0            ; [] |54| 
+     248 000008 B3E2          BIT.B     #2,&P1IN+0            ; [] |56| 
          00000a 0000!
-     249 00000c 2039          JNE       $C$L7                 ; [] |54| 
-     250                                                      ; [] |54| 
+     249 00000c 2039          JNE       $C$L7                 ; [] |56| 
+     250                                                      ; [] |56| 
      251            ;* --------------------------------------------------------------------------*
-     252                    .dwpsn  file "../Lab7_P1.c",line 55,column 9,is_stmt,isa 0
+     252                    .dwpsn  file "../Lab7_P1.c",line 57,column 9,is_stmt,isa 0
      253                    ; Begin 1000 cycle delay
-MSP430 Assembler PC v21.6.0 Thu Mar 30 20:42:05 2023
+MSP430 Assembler PC v21.6.0 Wed Apr 12 12:34:09 2023
 
 Copyright (c) 2003-2018 Texas Instruments Incorporated
-C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE    6
+C:\Users\crs0074\AppData\Local\Temp\{AC605C25-B20A-489D-9608-84325D34CCC3} PAGE    6
 
      254                    .newblock
      255 00000e 120D          PUSH     r13
@@ -310,129 +310,129 @@ C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE 
      257 000014 831D  $1:     SUB.W    #1, r13
      258 000016 23FE          JNE      $1
      259 000018 413D          POP      r13
-     260                    ; End 1000 cycle delay ; [] |55| 
-     261                    .dwpsn  file "../Lab7_P1.c",line 56,column 9,is_stmt,isa 0
-     262 00001a 3C28          JMP       $C$L5                 ; [] |56| 
-     263                                                      ; [] |56| 
+     260                    ; End 1000 cycle delay ; [] |57| 
+     261                    .dwpsn  file "../Lab7_P1.c",line 58,column 9,is_stmt,isa 0
+     262 00001a 3C28          JMP       $C$L5                 ; [] |58| 
+     263                                                      ; [] |58| 
      264            ;* --------------------------------------------------------------------------*
      265            ;* --------------------------------------------------------------------------*
      266 00001c       $C$L1:    
-     267                    .dwpsn  file "../Lab7_P1.c",line 58,column 17,is_stmt,isa 0
-     268                    ; Begin 3000 cycle delay
+     267                    .dwpsn  file "../Lab7_P1.c",line 60,column 17,is_stmt,isa 0
+     268                    ; Begin 2750 cycle delay
      269                    .newblock
      270 00001c 120D          PUSH     r13
-     271 00001e 403D          MOV.W    #997, r13
-         000020 03E5 
+     271 00001e 403D          MOV.W    #914, r13
+         000020 0392 
      272 000022 831D  $1:     SUB.W    #1, r13
      273 000024 23FE          JNE      $1
      274 000026 413D          POP      r13
-     275 000028 3C00          JMP ($ + 2)
-     276                    ; End 3000 cycle delay ; [] |58| 
-     277                    .dwpsn  file "../Lab7_P1.c",line 59,column 17,is_stmt,isa 0
-     278 00002a 5392          ADD.W     #1,&TBCCR1+0          ; [] |59| 
+     275 000028 4303          NOP
+     276                    ; End 2750 cycle delay ; [] |60| 
+     277                    .dwpsn  file "../Lab7_P1.c",line 61,column 17,is_stmt,isa 0
+     278 00002a 5392          ADD.W     #1,&TBCCR1+0          ; [] |61| 
          00002c 0000!
      279            ;* --------------------------------------------------------------------------*
      280            ;*   BEGIN LOOP $C$L2
      281            ;* --------------------------------------------------------------------------*
      282 00002e       $C$L2:    
-     283                    .dwpsn  file "../Lab7_P1.c",line 57,column 20,is_stmt,isa 0
-     284 00002e B3D2          BIT.B     #1,&P1IN+0            ; [] |57| 
+     283                    .dwpsn  file "../Lab7_P1.c",line 59,column 20,is_stmt,isa 0
+     284 00002e B3D2          BIT.B     #1,&P1IN+0            ; [] |59| 
          000030 0000!
-     285 000032 2013          JNE       $C$L4                 ; [] |57| 
-     286                                                      ; [] |57| 
+     285 000032 2013          JNE       $C$L4                 ; [] |59| 
+     286                                                      ; [] |59| 
      287            ;* --------------------------------------------------------------------------*
-     288 000034 B3E2          BIT.B     #2,&P1IN+0            ; [] |57| 
+     288 000034 B3E2          BIT.B     #2,&P1IN+0            ; [] |59| 
          000036 0000!
-     289 000038 2010          JNE       $C$L4                 ; [] |57| 
-     290                                                      ; [] |57| 
+     289 000038 2010          JNE       $C$L4                 ; [] |59| 
+     290                                                      ; [] |59| 
      291            ;* --------------------------------------------------------------------------*
-     292 00003a 421F          MOV.W     &TBCCR0+0,r15         ; [] |57| 
+     292 00003a 421F          MOV.W     &TBCCR0+0,r15         ; [] |59| 
          00003c 0000!
-     293 00003e 831F          SUB.W     #1,r15                ; [] |57| 
-     294 000040 9F82          CMP.W     r15,&TBCCR1+0         ; [] |57| 
+     293 00003e 831F          SUB.W     #1,r15                ; [] |59| 
+     294 000040 9F82          CMP.W     r15,&TBCCR1+0         ; [] |59| 
          000042 0000!
-     295 000044 2BEB          JLO       $C$L1                 ; [] |57| 
-     296                                                      ; [] |57| 
+     295 000044 2BEB          JLO       $C$L1                 ; [] |59| 
+     296                                                      ; [] |59| 
      297            ;* --------------------------------------------------------------------------*
-     298                    .dwpsn  file "../Lab7_P1.c",line 61,column 13,is_stmt,isa 0
-     299 000046 3C09          JMP       $C$L4                 ; [] |61| 
-     300                                                      ; [] |61| 
+     298                    .dwpsn  file "../Lab7_P1.c",line 63,column 13,is_stmt,isa 0
+     299 000046 3C09          JMP       $C$L4                 ; [] |63| 
+     300                                                      ; [] |63| 
      301            ;* --------------------------------------------------------------------------*
-MSP430 Assembler PC v21.6.0 Thu Mar 30 20:42:05 2023
+MSP430 Assembler PC v21.6.0 Wed Apr 12 12:34:09 2023
 
 Copyright (c) 2003-2018 Texas Instruments Incorporated
-C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE    7
+C:\Users\crs0074\AppData\Local\Temp\{AC605C25-B20A-489D-9608-84325D34CCC3} PAGE    7
 
      302 000048       $C$L3:    
-     303                    .dwpsn  file "../Lab7_P1.c",line 62,column 17,is_stmt,isa 0
-     304                    ; Begin 3000 cycle delay
+     303                    .dwpsn  file "../Lab7_P1.c",line 64,column 17,is_stmt,isa 0
+     304                    ; Begin 2750 cycle delay
      305                    .newblock
      306 000048 120D          PUSH     r13
-     307 00004a 403D          MOV.W    #997, r13
-         00004c 03E5 
+     307 00004a 403D          MOV.W    #914, r13
+         00004c 0392 
      308 00004e 831D  $1:     SUB.W    #1, r13
      309 000050 23FE          JNE      $1
      310 000052 413D          POP      r13
-     311 000054 3C00          JMP ($ + 2)
-     312                    ; End 3000 cycle delay ; [] |62| 
-     313                    .dwpsn  file "../Lab7_P1.c",line 63,column 17,is_stmt,isa 0
-     314 000056 8392          SUB.W     #1,&TBCCR1+0          ; [] |63| 
+     311 000054 4303          NOP
+     312                    ; End 2750 cycle delay ; [] |64| 
+     313                    .dwpsn  file "../Lab7_P1.c",line 65,column 17,is_stmt,isa 0
+     314 000056 8392          SUB.W     #1,&TBCCR1+0          ; [] |65| 
          000058 0000!
      315            ;* --------------------------------------------------------------------------*
      316            ;*   BEGIN LOOP $C$L4
      317            ;* --------------------------------------------------------------------------*
      318 00005a       $C$L4:    
-     319                    .dwpsn  file "../Lab7_P1.c",line 61,column 20,is_stmt,isa 0
-     320 00005a B3D2          BIT.B     #1,&P1IN+0            ; [] |61| 
+     319                    .dwpsn  file "../Lab7_P1.c",line 63,column 20,is_stmt,isa 0
+     320 00005a B3D2          BIT.B     #1,&P1IN+0            ; [] |63| 
          00005c 0000!
-     321 00005e 2006          JNE       $C$L5                 ; [] |61| 
-     322                                                      ; [] |61| 
+     321 00005e 2006          JNE       $C$L5                 ; [] |63| 
+     322                                                      ; [] |63| 
      323            ;* --------------------------------------------------------------------------*
-     324 000060 B3E2          BIT.B     #2,&P1IN+0            ; [] |61| 
+     324 000060 B3E2          BIT.B     #2,&P1IN+0            ; [] |63| 
          000062 0000!
-     325 000064 2003          JNE       $C$L5                 ; [] |61| 
-     326                                                      ; [] |61| 
+     325 000064 2003          JNE       $C$L5                 ; [] |63| 
+     326                                                      ; [] |63| 
      327            ;* --------------------------------------------------------------------------*
-     328 000066 93A2          CMP.W     #2,&TBCCR1+0          ; [] |61| 
+     328 000066 93A2          CMP.W     #2,&TBCCR1+0          ; [] |63| 
          000068 0000!
-     329 00006a 2FEE          JHS       $C$L3                 ; [] |61| 
-     330                                                      ; [] |61| 
+     329 00006a 2FEE          JHS       $C$L3                 ; [] |63| 
+     330                                                      ; [] |63| 
      331            ;* --------------------------------------------------------------------------*
      332            ;*   BEGIN LOOP $C$L5
      333            ;* --------------------------------------------------------------------------*
      334 00006c       $C$L5:    
-     335                    .dwpsn  file "../Lab7_P1.c",line 56,column 16,is_stmt,isa 0
-     336 00006c B3D2          BIT.B     #1,&P1IN+0            ; [] |56| 
+     335                    .dwpsn  file "../Lab7_P1.c",line 58,column 16,is_stmt,isa 0
+     336 00006c B3D2          BIT.B     #1,&P1IN+0            ; [] |58| 
          00006e 0000!
-     337 000070 2003          JNE       $C$L6                 ; [] |56| 
-     338                                                      ; [] |56| 
+     337 000070 2003          JNE       $C$L6                 ; [] |58| 
+     338                                                      ; [] |58| 
      339            ;* --------------------------------------------------------------------------*
-     340 000072 B3E2          BIT.B     #2,&P1IN+0            ; [] |56| 
+     340 000072 B3E2          BIT.B     #2,&P1IN+0            ; [] |58| 
          000074 0000!
-     341 000076 27DB          JEQ       $C$L2                 ; [] |56| 
-     342                                                      ; [] |56| 
+     341 000076 27DB          JEQ       $C$L2                 ; [] |58| 
+     342                                                      ; [] |58| 
      343            ;* --------------------------------------------------------------------------*
      344 000078       $C$L6:    
-     345                    .dwpsn  file "../Lab7_P1.c",line 66,column 9,is_stmt,isa 0
-     346 000078 40B2          MOV.W     #272,&TBCCR1+0        ; [] |66| 
-         00007a 0110 
+     345                    .dwpsn  file "../Lab7_P1.c",line 68,column 9,is_stmt,isa 0
+     346 000078 40B2          MOV.W     #264,&TBCCR1+0        ; [] |68| 
+         00007a 0108 
          00007c 0000!
      347 00007e 3C26          JMP       $C$L9                 ; [] 
-MSP430 Assembler PC v21.6.0 Thu Mar 30 20:42:05 2023
+MSP430 Assembler PC v21.6.0 Wed Apr 12 12:34:09 2023
 
 Copyright (c) 2003-2018 Texas Instruments Incorporated
-C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE    8
+C:\Users\crs0074\AppData\Local\Temp\{AC605C25-B20A-489D-9608-84325D34CCC3} PAGE    8
 
      348                                                      ; [] 
      349            ;* --------------------------------------------------------------------------*
      350 000080       $C$L7:    
-     351                    .dwpsn  file "../Lab7_P1.c",line 68,column 10,is_stmt,isa 0
-     352 000080 B3D2          BIT.B     #1,&P1IN+0            ; [] |68| 
+     351                    .dwpsn  file "../Lab7_P1.c",line 70,column 10,is_stmt,isa 0
+     352 000080 B3D2          BIT.B     #1,&P1IN+0            ; [] |70| 
          000082 0000!
-     353 000084 2011          JNE       $C$L8                 ; [] |68| 
-     354                                                      ; [] |68| 
+     353 000084 2011          JNE       $C$L8                 ; [] |70| 
+     354                                                      ; [] |70| 
      355            ;* --------------------------------------------------------------------------*
-     356                    .dwpsn  file "../Lab7_P1.c",line 69,column 9,is_stmt,isa 0
+     356                    .dwpsn  file "../Lab7_P1.c",line 71,column 9,is_stmt,isa 0
      357                    ; Begin 1000 cycle delay
      358                    .newblock
      359 000086 120D          PUSH     r13
@@ -441,35 +441,35 @@ C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE 
      361 00008c 831D  $1:     SUB.W    #1, r13
      362 00008e 23FE          JNE      $1
      363 000090 413D          POP      r13
-     364                    ; End 1000 cycle delay ; [] |69| 
-     365                    .dwpsn  file "../Lab7_P1.c",line 70,column 9,is_stmt,isa 0
-     366 000092 B3D2          BIT.B     #1,&P1IN+0            ; [] |70| 
+     364                    ; End 1000 cycle delay ; [] |71| 
+     365                    .dwpsn  file "../Lab7_P1.c",line 72,column 9,is_stmt,isa 0
+     366 000092 B3D2          BIT.B     #1,&P1IN+0            ; [] |72| 
          000094 0000!
-     367 000096 201A          JNE       $C$L9                 ; [] |70| 
-     368                                                      ; [] |70| 
+     367 000096 201A          JNE       $C$L9                 ; [] |72| 
+     368                                                      ; [] |72| 
      369            ;* --------------------------------------------------------------------------*
-     370                    .dwpsn  file "../Lab7_P1.c",line 71,column 13,is_stmt,isa 0
-     371 000098 9292          CMP.W     &TBCCR0+0,&TBCCR1+0   ; [] |71| 
+     370                    .dwpsn  file "../Lab7_P1.c",line 73,column 13,is_stmt,isa 0
+     371 000098 9292          CMP.W     &TBCCR0+0,&TBCCR1+0   ; [] |73| 
          00009a 0000!
          00009c 0000!
-     372 00009e 2C16          JHS       $C$L9                 ; [] |71| 
-     373                                                      ; [] |71| 
+     372 00009e 2C16          JHS       $C$L9                 ; [] |73| 
+     373                                                      ; [] |73| 
      374            ;* --------------------------------------------------------------------------*
-     375                    .dwpsn  file "../Lab7_P1.c",line 72,column 17,is_stmt,isa 0
-     376 0000a0 50B2          ADD.W     #136,&TBCCR1+0        ; [] |72| 
-         0000a2 0088 
+     375                    .dwpsn  file "../Lab7_P1.c",line 74,column 17,is_stmt,isa 0
+     376 0000a0 50B2          ADD.W     #132,&TBCCR1+0        ; [] |74| 
+         0000a2 0084 
          0000a4 0000!
      377 0000a6 3C12          JMP       $C$L9                 ; [] 
      378                                                      ; [] 
      379            ;* --------------------------------------------------------------------------*
      380 0000a8       $C$L8:    
-     381                    .dwpsn  file "../Lab7_P1.c",line 76,column 10,is_stmt,isa 0
-     382 0000a8 B3E2          BIT.B     #2,&P1IN+0            ; [] |76| 
+     381                    .dwpsn  file "../Lab7_P1.c",line 78,column 10,is_stmt,isa 0
+     382 0000a8 B3E2          BIT.B     #2,&P1IN+0            ; [] |78| 
          0000aa 0000!
-     383 0000ac 200F          JNE       $C$L9                 ; [] |76| 
-     384                                                      ; [] |76| 
+     383 0000ac 200F          JNE       $C$L9                 ; [] |78| 
+     384                                                      ; [] |78| 
      385            ;* --------------------------------------------------------------------------*
-     386                    .dwpsn  file "../Lab7_P1.c",line 77,column 9,is_stmt,isa 0
+     386                    .dwpsn  file "../Lab7_P1.c",line 79,column 9,is_stmt,isa 0
      387                    ; Begin 1000 cycle delay
      388                    .newblock
      389 0000ae 120D          PUSH     r13
@@ -478,34 +478,34 @@ C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE 
      391 0000b4 831D  $1:     SUB.W    #1, r13
      392 0000b6 23FE          JNE      $1
      393 0000b8 413D          POP      r13
-MSP430 Assembler PC v21.6.0 Thu Mar 30 20:42:05 2023
+MSP430 Assembler PC v21.6.0 Wed Apr 12 12:34:09 2023
 
 Copyright (c) 2003-2018 Texas Instruments Incorporated
-C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE    9
+C:\Users\crs0074\AppData\Local\Temp\{AC605C25-B20A-489D-9608-84325D34CCC3} PAGE    9
 
-     394                    ; End 1000 cycle delay ; [] |77| 
-     395                    .dwpsn  file "../Lab7_P1.c",line 78,column 9,is_stmt,isa 0
-     396 0000ba B3E2          BIT.B     #2,&P1IN+0            ; [] |78| 
+     394                    ; End 1000 cycle delay ; [] |79| 
+     395                    .dwpsn  file "../Lab7_P1.c",line 80,column 9,is_stmt,isa 0
+     396 0000ba B3E2          BIT.B     #2,&P1IN+0            ; [] |80| 
          0000bc 0000!
-     397 0000be 2006          JNE       $C$L9                 ; [] |78| 
-     398                                                      ; [] |78| 
+     397 0000be 2006          JNE       $C$L9                 ; [] |80| 
+     398                                                      ; [] |80| 
      399            ;* --------------------------------------------------------------------------*
-     400                    .dwpsn  file "../Lab7_P1.c",line 79,column 13,is_stmt,isa 0
-     401 0000c0 9382          TST.W     &TBCCR1+0             ; [] |79| 
+     400                    .dwpsn  file "../Lab7_P1.c",line 81,column 13,is_stmt,isa 0
+     401 0000c0 9382          TST.W     &TBCCR1+0             ; [] |81| 
          0000c2 0000!
-     402 0000c4 2403          JEQ       $C$L9                 ; [] |79| 
-     403                                                      ; [] |79| 
+     402 0000c4 2403          JEQ       $C$L9                 ; [] |81| 
+     403                                                      ; [] |81| 
      404            ;* --------------------------------------------------------------------------*
-     405                    .dwpsn  file "../Lab7_P1.c",line 80,column 17,is_stmt,isa 0
-     406 0000c6 80B2          SUB.W     #136,&TBCCR1+0        ; [] |80| 
-         0000c8 0088 
+     405                    .dwpsn  file "../Lab7_P1.c",line 82,column 17,is_stmt,isa 0
+     406 0000c6 80B2          SUB.W     #132,&TBCCR1+0        ; [] |82| 
+         0000c8 0084 
          0000ca 0000!
      407            ;* --------------------------------------------------------------------------*
      408 0000cc       $C$L9:    
-     409                    .dwpsn  file "../Lab7_P1.c",line 84,column 5,is_stmt,isa 0
-     410 0000cc 43C2          MOV.B     #0,&P1IFG+0           ; [] |84| 
+     409                    .dwpsn  file "../Lab7_P1.c",line 86,column 5,is_stmt,isa 0
+     410 0000cc 43C2          MOV.B     #0,&P1IFG+0           ; [] |86| 
          0000ce 0000!
-     411                    .dwpsn  file "../Lab7_P1.c",line 85,column 1,is_stmt,isa 0
+     411                    .dwpsn  file "../Lab7_P1.c",line 87,column 1,is_stmt,isa 0
      412 0000d0 413F          POP       r15                   ; [] 
      413                    .dwcfi  restore_reg, 15
      414                    .dwcfi  cfa_offset, 2
@@ -516,7 +516,7 @@ C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE 
      419 0000d2 1300          RETI      ; [] 
      420                    ; [] 
      421                    .dwattr $C$DW$15, DW_AT_TI_end_file("../Lab7_P1.c")
-     422                    .dwattr $C$DW$15, DW_AT_TI_end_line(0x55)
+     422                    .dwattr $C$DW$15, DW_AT_TI_end_line(0x57)
      423                    .dwattr $C$DW$15, DW_AT_TI_end_column(0x01)
      424                    .dwendentry
      425                    .dwendtag $C$DW$15
@@ -538,10 +538,10 @@ C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE 
      441                    .global WDTCTL
      442            
      443            ;******************************************************************************
-MSP430 Assembler PC v21.6.0 Thu Mar 30 20:42:05 2023
+MSP430 Assembler PC v21.6.0 Wed Apr 12 12:34:09 2023
 
 Copyright (c) 2003-2018 Texas Instruments Incorporated
-C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE   10
+C:\Users\crs0074\AppData\Local\Temp\{AC605C25-B20A-489D-9608-84325D34CCC3} PAGE   10
 
      444            ;* BUILD ATTRIBUTES                                                           *
      445            ;******************************************************************************
@@ -598,10 +598,10 @@ C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE 
      496                    .dwattr $C$DW$T$7, DW_AT_encoding(DW_ATE_signed_char)
      497                    .dwattr $C$DW$T$7, DW_AT_name("wchar_t")
      498                    .dwattr $C$DW$T$7, DW_AT_byte_size(0x02)
-MSP430 Assembler PC v21.6.0 Thu Mar 30 20:42:05 2023
+MSP430 Assembler PC v21.6.0 Wed Apr 12 12:34:09 2023
 
 Copyright (c) 2003-2018 Texas Instruments Incorporated
-C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE   11
+C:\Users\crs0074\AppData\Local\Temp\{AC605C25-B20A-489D-9608-84325D34CCC3} PAGE   11
 
      499            
      500            $C$DW$T$8       .dwtag  DW_TAG_base_type
@@ -658,10 +658,10 @@ C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE 
      551                    .dwattr $C$DW$T$17, DW_AT_byte_size(0x08)
      552            
      553            $C$DW$T$18      .dwtag  DW_TAG_base_type
-MSP430 Assembler PC v21.6.0 Thu Mar 30 20:42:05 2023
+MSP430 Assembler PC v21.6.0 Wed Apr 12 12:34:09 2023
 
 Copyright (c) 2003-2018 Texas Instruments Incorporated
-C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE   12
+C:\Users\crs0074\AppData\Local\Temp\{AC605C25-B20A-489D-9608-84325D34CCC3} PAGE   12
 
      554                    .dwattr $C$DW$T$18, DW_AT_encoding(DW_ATE_float)
      555                    .dwattr $C$DW$T$18, DW_AT_name("long double")
@@ -718,10 +718,10 @@ C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE 
      606            
      607            $C$DW$23        .dwtag  DW_TAG_TI_assign_register
      608                    .dwattr $C$DW$23, DW_AT_name("r6")
-MSP430 Assembler PC v21.6.0 Thu Mar 30 20:42:05 2023
+MSP430 Assembler PC v21.6.0 Wed Apr 12 12:34:09 2023
 
 Copyright (c) 2003-2018 Texas Instruments Incorporated
-C:\Users\crs0074\AppData\Local\Temp\{57CC6326-E8B4-4475-9D43-3CCAAAA126AD} PAGE   13
+C:\Users\crs0074\AppData\Local\Temp\{AC605C25-B20A-489D-9608-84325D34CCC3} PAGE   13
 
      609                    .dwattr $C$DW$23, DW_AT_location[DW_OP_reg6]
      610            

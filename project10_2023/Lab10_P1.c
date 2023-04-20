@@ -77,15 +77,8 @@ void sendData(void) {
     Ygs = (((ADCYval*3.0/4095) - 1.5)/0.3);
     Zgs = (2*(((ADCZval*3.0/4095) - 1.5)/0.3) + 4.9);
     Tgs = sqrt(Xgs*Xgs + Ygs*Ygs + Zgs*Zgs);
-//    Tgs2 = fmaxf(Xgs, Xgs*A + Ygs*B + Zgs*Y);
 
     Deg = 180*atan2f(Zgs, Xgs)/3.1415926535879323 + 90;
-
-//    int s = 0;
-//    for (s = 0; s < ) {
-//
-//    }
-
 
     if ((fabs(Xgs) > fabs(Ygs)) && (fabs(Xgs) > fabs(Zgs))) {
         if (fabs(Ygs) > fabs(Zgs)) {

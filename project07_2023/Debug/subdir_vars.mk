@@ -9,27 +9,21 @@ CMD_SRCS += \
 ../lnk_msp430fg4618.cmd 
 
 C_SRCS += \
-../Lab7_P1.c \
-../Lab7_P2.c 
+../Lab7_P1.c 
 
 C_DEPS += \
-./Lab7_P1.d \
-./Lab7_P2.d 
+./Lab7_P1.d 
 
 OBJS += \
-./Lab7_P1.obj \
-./Lab7_P2.obj 
+./Lab7_P1.obj 
 
 OBJS__QUOTED += \
-"Lab7_P1.obj" \
-"Lab7_P2.obj" 
+"Lab7_P1.obj" 
 
 C_DEPS__QUOTED += \
-"Lab7_P1.d" \
-"Lab7_P2.d" 
+"Lab7_P1.d" 
 
 C_SRCS__QUOTED += \
-"../Lab7_P1.c" \
-"../Lab7_P2.c" 
+"../Lab7_P1.c" 
 
 

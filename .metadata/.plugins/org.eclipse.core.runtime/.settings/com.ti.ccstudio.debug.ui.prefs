@@ -1,7 +1,9 @@
-MODULES_MRU_PATH=C\:\\Users\\crs0074\\Downloads\\Lab9_slave.out
-MODULES_MRU_PATH.1=C\:\\Users\\crs0074\\workspace_v12\\project09_2023\\Debug\\project09_2023.out\#THREAD_IDS\#TI MSP430 USB1/MSP430
-MODULES_MRU_PATH.2=C\:\\Users\\crs0074\\workspace_v12\\project08_2023\\Debug\\project08_2023.out\#THREAD_IDS\#TI MSP430 USB1/MSP430
-MODULES_MRU_PATH.3=C\:\\Users\\crs0074\\workspace_v12\\project07_2023\\Debug\\project07_2023.out\#THREAD_IDS\#TI MSP430 USB1/MSP430
+MODULES_MRU_PATH=C\:\\Users\\crs0074\\Desktop\\Lab11_crack_me_chandlerstone.out\#THREAD_IDS\#TI MSP430 USB1/MSP430
+MODULES_MRU_PATH.1=C\:\\Users\\crs0074\\workspace_v12\\Lab11\\Debug\\Lab11.out\#THREAD_IDS\#TI MSP430 USB1/MSP430
+MODULES_MRU_PATH.2=C\:\\Users\\crs0074\\workspace_v12\\project07_2023\\Debug\\project07_2023.out\#THREAD_IDS\#TI MSP430 USB1/MSP430
+MODULES_MRU_PATH.3=C\:\\Users\\crs0074\\Downloads\\Lab9_slave.out
+MODULES_MRU_PATH.4=C\:\\Users\\crs0074\\workspace_v12\\project09_2023\\Debug\\project09_2023.out\#THREAD_IDS\#TI MSP430 USB1/MSP430
+MODULES_MRU_PATH.5=C\:\\Users\\crs0074\\workspace_v12\\project08_2023\\Debug\\project08_2023.out\#THREAD_IDS\#TI MSP430 USB1/MSP430
 PROMPT_FOR_ADVISOR_REMARKS_ON_LAUNCH=always
 RELOAD_PROGRAM_IF_CHANGED=always
 eclipse.preferences.version=1

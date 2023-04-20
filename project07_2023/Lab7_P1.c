@@ -27,6 +27,8 @@
 
 #include <msp430xG46x.h>
 
+static const int dutyCycleMax = 528; // changed from 544 to prevent blinking.
+
 void main(void)
 {
     WDTCTL = WDTPW + WDTHOLD;   // Stop WDT
@@ -43,8 +45,8 @@ void main(void)
 
     TBCCTL1 = OUTMOD_7;         // TB0 output is in Set/Reset mode
     TBCTL = TBSSEL_1 + MC_1;    // ACLK is clock source, Up mode. ALCK = 2^15 Hz
-    TBCCR0 = 544;             // Setting max for duty cycle
-    TBCCR1 = 272;                // Setting start for duty cycle
+    TBCCR0 = dutyCycleMax;      // Setting max for duty cycle
+    TBCCR1 = dutyCycleMax/2;    // Setting start for duty cycle (50%)
 
     _BIS_SR(LPM0_bits + GIE);   // Enter Low Power Mode 0 (Sleep Mode)
 }
@@ -55,21 +57,21 @@ __interrupt void Port1_ISR (void) {
         __delay_cycles(1000);
         while ((SW1) == 0 && (SW2) == 0) {
             while ((SW1) == 0 && (SW2) == 0 && TBCCR1 < TBCCR0 - 1) {
-                __delay_cycles(3000);
+                __delay_cycles(2750);
                 TBCCR1++;
             }
             while ((SW1) == 0 && (SW2) == 0 && TBCCR1 > 1) {
-                __delay_cycles(3000);
+                __delay_cycles(2750);
                 TBCCR1--;
             }
         }
-        TBCCR1 = 272;
+        TBCCR1 = dutyCycleMax/2;
     }
     else if ((SW1) == 0) {
         __delay_cycles(1000);
         if ((SW1) == 0) {
             if (TBCCR1 < TBCCR0) {
-                TBCCR1 += 136;
+                TBCCR1 += dutyCycleMax/4;   // changing by 25% of duty cycle.
             }
         }
     }
@@ -77,7 +79,7 @@ __interrupt void Port1_ISR (void) {
         __delay_cycles(1000);
         if ((SW2) == 0) {
             if (TBCCR1 > 0) {
-                TBCCR1 -= 136;
+                TBCCR1 -= dutyCycleMax/4;   // changing by 25% of duty cycle.
             }
         }
     }

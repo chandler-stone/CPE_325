@@ -29,9 +29,8 @@
 
 void main(void)
 {
-    WDTCTL = WDT_ADLY_1000;   // Stop WDT
+    WDTCTL = WDT_ADLY_1000;     // Stop WDT
     IE1 |= WDTIE;
-//    IFG1 &= ~WDTIFG;
 
     _EINT();                    // Enable global interrupts
 
@@ -44,10 +43,10 @@ void main(void)
 
     TBCCTL4 = OUTMOD_4;         // TB0 output is in Set/Reset mode
     TBCTL = TBSSEL_1 + MC_1;    // ACLK is clock source, Continuous mode//SMLCK = 1MHz
-    TBCCR0 = 33;             // Setting min value of timer to 50 (half brightness)
+    TBCCR0 = 33;                // Setting min value of timer to 50 (half brightness)
     TBCCR4 = 16;
 
-    _BIS_SR(LPM0_bits + GIE); // Enter Low Power Mode 0 (Sleep Mode)
+    _BIS_SR(LPM0_bits + GIE);   // Enter Low Power Mode 0 (Sleep Mode)
 }
 
 

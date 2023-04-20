@@ -4,7 +4,7 @@
     <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROGRAM.MSP430FG4618.ccxml.TI MSP430 USB1/MSP430" value="${build_artifact:project07_2023}"/>
     <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_PROJECT.MSP430FG4618.ccxml.TI MSP430 USB1/MSP430" value="project07_2023"/>
     <stringAttribute key="com.ti.ccstudio.debug.debugModel.ATTR_TARGET_CONFIG" value="${target_config_active_default:project07_2023}"/>
-    <stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.MSP430FG4618.ccxml.TI MSP430 USB1/MSP430" value="${build_artifact:project07_2023}"/>
+    <stringAttribute key="com.ti.ccstudio.debug.debugModel.MRU_PROGRAM.MSP430FG4618.ccxml.TI MSP430 USB1/MSP430" value="C:\Users\crs0074\Desktop\Lab11_crack_me_chandlerstone.out"/>
     <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
         <listEntry value="/project07_2023"/>
     </listAttribute>

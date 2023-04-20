@@ -11,7 +11,6 @@ GEN_CMDS__FLAG :=
 
 ORDERED_OBJS += \
 "./Lab7_P1.obj" \
-"./Lab7_P2.obj" \
 "../lnk_msp430fg4618.cmd" \
 $(GEN_CMDS__FLAG) \
 -llibc.a \
@@ -155,9 +154,9 @@ project07_2023.hex: $(EXE_OUTPUTS)
 # Other Targets
 clean:
 	-$(RM) $(BIN_OUTPUTS__QUOTED)$(EXE_OUTPUTS__QUOTED)
-	-$(RM) "Lab7_P1.lst" "Lab7_P2.lst" 
-	-$(RM) "Lab7_P1.obj" "Lab7_P2.obj" 
-	-$(RM) "Lab7_P1.d" "Lab7_P2.d" 
+	-$(RM) "Lab7_P1.lst" 
+	-$(RM) "Lab7_P1.obj" 
+	-$(RM) "Lab7_P1.d" 
 	-@echo 'Finished clean'
 	-@echo ' '
 
