@@ -1,5 +1,18 @@
+<<<<<<< HEAD
 PROMPT_FOR_ADVISOR_REMARKS_ON_LAUNCH=always
 RELOAD_PROGRAM_IF_CHANGED=always
 eclipse.preferences.version=1
 symbolAutoCompleteHistory<seperator>org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser<seperator>TI\ MSP430\ USB1\\MSP430=0x2400,0x8,0x00008,0x00007,0x2402,0x0,0x1000,p,a,factor,value,output_factor_num,0x43FC,0x4418,0x23FE
+=======
+MODULES_MRU_PATH=C\:\\Users\\crs0074\\Desktop\\Lab11_crack_me_chandlerstone.out\#THREAD_IDS\#TI MSP430 USB1/MSP430
+MODULES_MRU_PATH.1=C\:\\Users\\crs0074\\workspace_v12\\Lab11\\Debug\\Lab11.out\#THREAD_IDS\#TI MSP430 USB1/MSP430
+MODULES_MRU_PATH.2=C\:\\Users\\crs0074\\workspace_v12\\project07_2023\\Debug\\project07_2023.out\#THREAD_IDS\#TI MSP430 USB1/MSP430
+MODULES_MRU_PATH.3=C\:\\Users\\crs0074\\Downloads\\Lab9_slave.out
+MODULES_MRU_PATH.4=C\:\\Users\\crs0074\\workspace_v12\\project09_2023\\Debug\\project09_2023.out\#THREAD_IDS\#TI MSP430 USB1/MSP430
+MODULES_MRU_PATH.5=C\:\\Users\\crs0074\\workspace_v12\\project08_2023\\Debug\\project08_2023.out\#THREAD_IDS\#TI MSP430 USB1/MSP430
+PROMPT_FOR_ADVISOR_REMARKS_ON_LAUNCH=always
+RELOAD_PROGRAM_IF_CHANGED=always
+eclipse.preferences.version=1
+symbolAutoCompleteHistory<seperator>org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser<seperator>TI\ MSP430\ USB1\\MSP430=0x3070,0x2400,0xf002
+>>>>>>> 3241bd8d2d1d8bbdb94c40978505efd2300e2163
 useAnnotationsPrefPage=true

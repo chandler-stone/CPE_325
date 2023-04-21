@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+<<<<<<< HEAD
 	<section name="NewWizardAction">
 		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.cdt.ui.wizards.NewSourceFileCreationWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
@@ -8,4 +9,6 @@
 	</section>
 	<section name="ImportExportAction">
 	</section>
+=======
+>>>>>>> 3241bd8d2d1d8bbdb94c40978505efd2300e2163
 </section>

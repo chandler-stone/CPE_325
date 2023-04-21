@@ -1,5 +1,8 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 macros/workspace=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<macros/>\r\n
+=======
+>>>>>>> 3241bd8d2d1d8bbdb94c40978505efd2300e2163
 org.eclipse.cdt.core.formatter.alignment_for_arguments_in_method_invocation=18
 org.eclipse.cdt.core.formatter.alignment_for_assignment=16
 org.eclipse.cdt.core.formatter.alignment_for_base_clause_in_type_declaration=82
@@ -188,3 +191,8 @@ org.eclipse.cdt.core.formatter.tabulation.char=space
 org.eclipse.cdt.core.formatter.tabulation.size=space
 org.eclipse.cdt.core.formatter.use_comment_formatter_tag=true
 org.eclipse.cdt.core.formatter.use_tabs_only_for_leading_indentations=false
+<<<<<<< HEAD
+=======
+org.eclipse.cdt.core.showSourceFilesInBinaries=true
+org.eclipse.cdt.core.showSourceNotFoundEditor=never
+>>>>>>> 3241bd8d2d1d8bbdb94c40978505efd2300e2163

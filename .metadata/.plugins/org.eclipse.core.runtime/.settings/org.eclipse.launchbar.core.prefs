@@ -1,6 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+<<<<<<< HEAD
 configDescList=org.eclipse.launchbar.core.descriptorType.default\:HW_test,org.eclipse.launchbar.core.descriptorType.default\:Project01,org.eclipse.launchbar.core.descriptorType.default\:Project01_2023,org.eclipse.launchbar.core.descriptorType.default\:Project02_2023,org.eclipse.launchbar.core.descriptorType.default\:Project03,org.eclipse.launchbar.core.descriptorType.default\:Project03_2023,org.eclipse.launchbar.core.descriptorType.default\:Project03_tutorial,org.eclipse.launchbar.core.descriptorType.default\:Project04,org.eclipse.launchbar.core.descriptorType.default\:Project04_2023,org.eclipse.launchbar.core.descriptorType.default\:Project0_test,org.eclipse.launchbar.core.descriptorType.default\:project04_tutorial,org.eclipse.launchbar.core.descriptorType.default\:project05,org.eclipse.launchbar.core.descriptorType.default\:project05_2023,org.eclipse.launchbar.core.descriptorType.default\:project05_tutorial,org.eclipse.launchbar.core.descriptorType.default\:project06_C_2023,org.eclipse.launchbar.core.descriptorType.default\:project06_asm,org.eclipse.launchbar.core.descriptorType.default\:project06_asm_2023,org.eclipse.launchbar.core.descriptorType.default\:project06_c,org.eclipse.launchbar.core.descriptorType.default\:project06_tutorial_asm,org.eclipse.launchbar.core.descriptorType.default\:project06_tutorial_c,org.eclipse.launchbar.core.descriptorType.default\:Project02,org.eclipse.launchbar.core.descriptorType.default\:ACM-CySec
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:ACM-CySec/activeLaunchMode=debug
@@ -15,3 +16,18 @@ org.eclipse.launchbar.core.descriptorType.default\:Project06_tutorial/activeLaun
 org.eclipse.launchbar.core.descriptorType.default\:Project0_test/activeLaunchMode=debug
 org.eclipse.launchbar.core.descriptorType.default\:Project0_test/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.launchbar.core.descriptorType.default\:project06_asm/activeLaunchMode=debug
+=======
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:project09_2023_2013,org.eclipse.launchbar.core.descriptorType.default\:project08_2023,org.eclipse.launchbar.core.descriptorType.default\:project09_2013_2023,org.eclipse.launchbar.core.descriptorType.default\:project09_2023,org.eclipse.launchbar.core.descriptorType.default\:project09_2023_4618,org.eclipse.launchbar.core.descriptorType.default\:project10_2023,org.eclipse.launchbar.core.descriptorType.default\:project07_2023,org.eclipse.launchbar.core.descriptorType.default\:Lab11
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Lab11/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:Lab11/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:Project1/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:Project1/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:bj/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:bj/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:project07_2023/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:project07_2023/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:project08_2023/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:project09_2023/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:project10_2023/activeLaunchMode=debug
+>>>>>>> 3241bd8d2d1d8bbdb94c40978505efd2300e2163

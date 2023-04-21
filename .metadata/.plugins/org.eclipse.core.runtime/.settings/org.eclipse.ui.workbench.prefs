@@ -1,6 +1,9 @@
 //org.eclipse.ui.commands/state/org.eclipse.ui.navigator.resources.nested.changeProjectPresentation/org.eclipse.ui.commands.radioState=false
+<<<<<<< HEAD
 ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.ui.workbenchMisc\tTorg.eclipse.cdt.ui.presentation
 ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.cdt.ui.buildconsole.ConsoleFont
+=======
+>>>>>>> 3241bd8d2d1d8bbdb94c40978505efd2300e2163
 UIActivities.com.ti.ccstudio.activities.RSEActivity=true
 eclipse.preferences.version=1
 org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_END=255,255,255

@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 2023/04/08-11:02:14.159 2e18 Reusing MANIFEST C:\Users\chand\workspace_v12\.jxbrowser.userdata\Default\Site Characteristics Database/MANIFEST-000001
 2023/04/08-11:02:14.183 2e18 Recovering log #3
 2023/04/08-11:02:14.183 2e18 Reusing old log C:\Users\chand\workspace_v12\.jxbrowser.userdata\Default\Site Characteristics Database/000003.log 
+=======
+2023/03/06-18:41:51.078 29f0 Reusing MANIFEST C:\Users\crs0074\workspace_v12\.jxbrowser.userdata\Default\Site Characteristics Database/MANIFEST-000001
+2023/03/06-18:41:51.079 29f0 Recovering log #3
+2023/03/06-18:41:51.080 29f0 Reusing old log C:\Users\crs0074\workspace_v12\.jxbrowser.userdata\Default\Site Characteristics Database/000003.log 
+>>>>>>> 3241bd8d2d1d8bbdb94c40978505efd2300e2163

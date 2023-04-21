@@ -1,7 +1,11 @@
 
 **** Build of configuration Debug for project project08_2023 ****
 
+<<<<<<< HEAD
 "C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+=======
+"C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+>>>>>>> 3241bd8d2d1d8bbdb94c40978505efd2300e2163
  
 gmake[1]: 'project08_2023.out' is up to date.
 

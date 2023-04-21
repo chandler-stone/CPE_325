@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 2023/04/06-15:38:54.684 3ca0 Reusing MANIFEST C:\Users\chand\workspace_v12\.jxbrowser.userdata\Default\Sync Data\LevelDB/MANIFEST-000001
 2023/04/06-15:38:54.696 3ca0 Recovering log #3
 2023/04/06-15:38:54.697 3ca0 Reusing old log C:\Users\chand\workspace_v12\.jxbrowser.userdata\Default\Sync Data\LevelDB/000003.log 
+=======
+2022/09/13-08:34:41.659 26f4 Reusing MANIFEST C:\Users\crs0074\workspace_v12\.jxbrowser.userdata\Default\Sync Data\LevelDB/MANIFEST-000001
+2022/09/13-08:34:41.660 26f4 Recovering log #3
+2022/09/13-08:34:41.660 26f4 Reusing old log C:\Users\crs0074\workspace_v12\.jxbrowser.userdata\Default\Sync Data\LevelDB/000003.log 
+>>>>>>> 3241bd8d2d1d8bbdb94c40978505efd2300e2163

@@ -1,8 +1,26 @@
 
 **** Build of configuration Debug for project Project01 ****
 
+<<<<<<< HEAD
 "C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
  
 gmake[1]: 'Project01.out' is up to date.
+=======
+"C:\\ti\\ccs1200\\ccs\\utils\\bin\\gmake" -k -j 16 all -O 
+ 
+Building target: "Project01.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"Project01.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs1200/ccs/ccs_base/msp430/include" -i"C:/ti/ccs1200/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib" -i"C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Project01_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "Project01.out" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+warning #10211-D: cannot resolve archive C:/ti/ccs1200/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx/libmath.a to a compatible library, as no input files have been encountered
+warning #10211-D: cannot resolve archive C:/ti/ccs1200/ccs/tools/compiler/ti-cgt-msp430_21.6.0.LTS/lib/libc.a to a compatible library, as no input files have been encountered
+fatal error #10009: no input files
+ 
+>> Compilation failure
+makefile:141: recipe for target 'Project01.out' failed
+gmake[1]: *** [Project01.out] Error 1
+gmake: *** [all] Error 2
+makefile:137: recipe for target 'all' failed
+>>>>>>> 3241bd8d2d1d8bbdb94c40978505efd2300e2163
 
 **** Build Finished ****

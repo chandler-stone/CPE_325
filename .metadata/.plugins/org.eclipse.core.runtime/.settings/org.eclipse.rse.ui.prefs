@@ -1,2 +1,6 @@
 eclipse.preferences.version=1
+<<<<<<< HEAD
 org.eclipse.rse.preferences.order.connections=ENG226-R3S4.Local;LAPTOP-SOQCJNR2.Local
+=======
+org.eclipse.rse.preferences.order.connections=ENG226-R3S4.Local
+>>>>>>> 3241bd8d2d1d8bbdb94c40978505efd2300e2163

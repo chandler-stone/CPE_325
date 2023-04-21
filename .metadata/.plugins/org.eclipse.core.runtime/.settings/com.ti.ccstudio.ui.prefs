@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 CCStudioUIStartup.CCS_IMAGE_INFO=C\:/Users/chand/workspace_v12|C\:/ti/ccs1200/ccs|12.0.0.00009
 com.ti.ccstudio.ui.CCS_INSTALL_LOCATION=C\:/ti/ccs1200/ccs
 com.ti.ccstudio.ui.CCS_VERSION=12.0.0.00009
 com.ti.ccstudio.ui.CCS_WORKSPACE_LOCATION=C\:/Users/chand/workspace_v12
+=======
+CCStudioUIStartup.CCS_IMAGE_INFO=C\:/Users/crs0074/workspace_v12|C\:/ti/ccs1200/ccs|12.0.0.00009
+com.ti.ccstudio.ui.CCS_INSTALL_LOCATION=C\:/ti/ccs1200/ccs
+com.ti.ccstudio.ui.CCS_VERSION=12.0.0.00009
+com.ti.ccstudio.ui.CCS_WORKSPACE_LOCATION=C\:/Users/crs0074/workspace_v12
+>>>>>>> 3241bd8d2d1d8bbdb94c40978505efd2300e2163
 com.ti.ccstudio.ui.IS_NOT_FIRST_CCS_LAUNCH=true
 eclipse.preferences.version=1

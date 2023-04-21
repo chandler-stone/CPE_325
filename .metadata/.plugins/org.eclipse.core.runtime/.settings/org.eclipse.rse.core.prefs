@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 activeuserprofiles=ENG226-R3S4;LAPTOP-SOQCJNR2;Team
 eclipse.preferences.version=1
 org.eclipse.rse.systemtype.local.systemType.defaultUserId=chand
 useridperkey=ENG226-R3S4.Local\=chand;LAPTOP-SOQCJNR2.Local\=chand;
+=======
+activeuserprofiles=ENG226-R3S4;Team
+eclipse.preferences.version=1
+org.eclipse.rse.systemtype.local.systemType.defaultUserId=crs0074
+useridperkey=ENG226-R3S4.Local\=crs0074;
+>>>>>>> 3241bd8d2d1d8bbdb94c40978505efd2300e2163
